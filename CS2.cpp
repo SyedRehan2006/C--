@@ -26,18 +26,7 @@ public:
             cout << "Player was not Created" << endl;
         }
     }
-    void weaponsSelection()
-    {
-        int primarywapon;
-        int secondaryeapon;
-        int meleeweapon;
-        
-    }
-    player()
-    {
-        int health = 100;
-        cout << "Player Health = " << health << endl;
-    }
+    
 };
 int main()
 {
