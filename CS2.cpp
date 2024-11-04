@@ -55,12 +55,15 @@ public:
     }
     void displayPlayerInfo()
     {
-        cout << "Player Name: " << userName << endl;
+        cout << endl;
+        cout << "************START************" << endl;
+        cout << "Player: " << userName << endl;
         cout << "Team: " << team << endl;
         cout << "Health: " << health << endl;
         cout << "Armor: " << armor << endl;
         cout << "Primary Weapon: " << primaryWeapon << endl;
         cout << "Secondary Weapon: " << secondaryWeapon << endl;
+        cout << endl;
     }
 };
 int main()
